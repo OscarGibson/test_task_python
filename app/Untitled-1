@@ -1,0 +1,18 @@
+https://api.flickr.com/services/rest/?api_key=1ccc0bd6ef5910a687967658fdcf5297&method=flickr.photos.search&format=json&text=pipka&sort=date-posted-asc&content_type=1
+
+The possible values are: date-posted-asc, date-posted-desc, date-taken-asc, date-taken-desc, interestingness-desc, interestingness-asc, and relevance
+
+content_type (Optional)
+Content Type setting:
+1 for photos only.
+2 for screenshots only.
+3 for 'other' only.
+4 for photos and screenshots.
+5 for screenshots and 'other'.
+6 for photos and 'other'.
+7 for photos, screenshots, and 'other' (all).
+
+per_page (Optional)
+Number of photos to return per page. If this argument is omitted, it defaults to 100. The maximum allowed value is 500.
+page (Optional)
+The page of results to return. If this argument is omitted, it defaults to 1.

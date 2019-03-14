@@ -1,0 +1,8 @@
+FLICKER_API_KEY = "<api_key>"
+
+CACHES = {
+    'default': {
+        'BACKEND': 'django.core.cache.backends.memcached.MemcachedCache',
+        'LOCATION': '<redis_path>',
+    }
+}
